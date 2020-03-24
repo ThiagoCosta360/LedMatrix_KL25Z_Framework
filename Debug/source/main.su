@@ -1,5 +1,4 @@
-main.cpp:48:6:void setupLedRGB()	8	static
-main.cpp:62:6:void delayMs(int)	24	static
-main.cpp:75:5:int main()	8	static
-main.cpp:132:1:void __static_initialization_and_destruction_0(int, int)	16	static
-main.cpp:132:1:cpp)	8	static
+main.cpp:37:6:void delayMs(int)	24	static
+main.cpp:45:5:int main()	16	static
+main.cpp:89:1:void __static_initialization_and_destruction_0(int, int)	16	static
+main.cpp:89:1:cpp)	8	static

@@ -11,8 +11,6 @@ mkl_Matrix::mkl_Matrix(gpio_Pin mosiPin, gpio_Pin clkPin, gpio_Pin csPin) : SPI_
 	SPI_CLK.setPortMode(gpio_output);
 	SPI_CLK.writeBit(true);
 
-	//setAscii();
-
 	writeCode(OP_DECODEMODE, 0x00);  // Decoding off
 	writeCode(OP_INTENSITY, 0x08);   // Brightness to intermediate
 	writeCode(OP_SCANLIMIT, 0x07);   // Scan limit = 7
@@ -41,10 +39,7 @@ void mkl_Matrix::setIntensity(uint8_t intensity)
 
 void mkl_Matrix::shutdown(bool status)
 {
-	if (status)
-		writeCode(OP_SHUTDOWN, 0);
-	else
-		writeCode(OP_SHUTDOWN, 1);
+	writeCode(OP_SHUTDOWN, (uint8_t)status);
 }
 
 void mkl_Matrix::clearDisplay()
