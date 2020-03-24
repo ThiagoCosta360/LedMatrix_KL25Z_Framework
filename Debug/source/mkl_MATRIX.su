@@ -1,0 +1,24 @@
+mkl_MATRIX.cpp:3:1:mkl_Matrix::mkl_Matrix(gpio_Pin, gpio_Pin, gpio_Pin)	32	static
+mkl_MATRIX.cpp:32:6:void mkl_Matrix::setScanLimit(uint8_t)	16	static
+mkl_MATRIX.cpp:37:6:void mkl_Matrix::setIntensity(uint8_t)	16	static
+mkl_MATRIX.cpp:42:6:void mkl_Matrix::shutdown(bool)	16	static
+mkl_MATRIX.cpp:50:6:void mkl_Matrix::clearDisplay()	24	static
+mkl_MATRIX.cpp:57:6:void mkl_Matrix::setDisplay()	24	static
+mkl_MATRIX.cpp:64:6:void mkl_Matrix::setStatus(uint8_t*)	24	static
+mkl_MATRIX.cpp:70:6:void mkl_Matrix::writeStatus()	24	static
+mkl_MATRIX.cpp:76:6:void mkl_Matrix::setLed(int, int, bool)	24	static
+mkl_MATRIX.cpp:82:6:void mkl_Matrix::setRow(uint8_t, uint8_t)	16	static
+mkl_MATRIX.cpp:87:6:void mkl_Matrix::setColumn(uint8_t, uint8_t)	24	static
+mkl_MATRIX.cpp:94:6:void mkl_Matrix::writeCode(uint8_t, uint8_t)	16	static
+mkl_MATRIX.cpp:102:6:void mkl_Matrix::spiTransfer(uint8_t)	24	static
+mkl_MATRIX.cpp:114:6:void mkl_Matrix::printStatus()	32	static
+mkl_MATRIX.cpp:129:6:void mkl_Matrix::invertStatus()	24	static
+mkl_MATRIX.cpp:137:6:void mkl_Matrix::moveStatusLeft(uint8_t)	24	static
+mkl_MATRIX.cpp:144:6:void mkl_Matrix::moveStatusRigth(uint8_t)	24	static
+mkl_MATRIX.cpp:151:6:void mkl_Matrix::moveStatusUp(uint8_t)	24	static
+mkl_MATRIX.cpp:163:6:void mkl_Matrix::moveStatusDown(uint8_t)	24	static
+mkl_MATRIX.cpp:175:6:void mkl_Matrix::setChar(char)	16	static
+mkl_MATRIX.cpp:181:6:void mkl_Matrix::createPanel(const char*)	16	static
+mkl_MATRIX.cpp:190:6:void mkl_Matrix::nextPanelFrame()	24	static
+mkl_MATRIX.cpp:208:6:void mkl_Matrix::getColumn(uint8_t, uint8_t*)	32	static
+mkl_MATRIX.cpp:215:6:void mkl_Matrix::setTransition(uint8_t*)	24	static

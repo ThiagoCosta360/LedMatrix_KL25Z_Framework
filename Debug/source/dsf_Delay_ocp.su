@@ -1,0 +1,7 @@
+dsf_Delay_ocp.cpp:57:1:dsf_Delay_ocp::dsf_Delay_ocp(TPM_t::TPMNumber_t)	24	static
+dsf_Delay_ocp.cpp:75:6:void dsf_Delay_ocp::setFrequency(TPMDiv_t::TPMDiv)	16	static
+dsf_Delay_ocp.cpp:109:6:void dsf_Delay_ocp::startDelay(uint16_t)	16	static
+dsf_Delay_ocp.cpp:146:5:int dsf_Delay_ocp::timeoutDelay()	16	static
+dsf_Delay_ocp.cpp:183:6:void dsf_Delay_ocp::waitDelay(uint16_t)	16	static
+dsf_Delay_ocp.cpp:196:6:void dsf_Delay_ocp::cancelDelay()	16	static
+dsf_Delay_ocp.cpp:211:6:void dsf_Delay_ocp::getCounter(uint16_t*)	16	static

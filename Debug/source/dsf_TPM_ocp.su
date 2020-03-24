@@ -1,0 +1,6 @@
+dsf_TPM_ocp.cpp:62:6:void dsf_TPMPeripheral_ocp::bindPeripheral(uint8_t*)	16	static
+dsf_TPM_ocp.cpp:83:6:void dsf_TPMPeripheral_ocp::bindChannel(uint8_t*, uint8_t)	24	static
+dsf_TPM_ocp.cpp:102:6:void dsf_TPMPeripheral_ocp::bindPin(uint8_t, uint8_t)	16	static
+dsf_TPM_ocp.cpp:119:6:void dsf_TPMPeripheral_ocp::enablePeripheralClock(uint8_t)	16	static
+dsf_TPM_ocp.cpp:137:6:void dsf_TPMPeripheral_ocp::enableGPIOClock(uint8_t)	16	static
+dsf_TPM_ocp.cpp:155:6:void dsf_TPMPeripheral_ocp::selectMuxAlternative(uint8_t)	16	static
