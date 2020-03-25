@@ -9,6 +9,7 @@ CPP_SRCS += \
 ../source/mkl_GPIO.cpp \
 ../source/mkl_GPIOPort.cpp \
 ../source/mkl_MATRIX.cpp \
+../source/mkl_MAX7219.cpp \
 ../source/mkl_MatrixPatterns.cpp 
 
 OBJS += \
@@ -17,6 +18,7 @@ OBJS += \
 ./source/mkl_GPIO.o \
 ./source/mkl_GPIOPort.o \
 ./source/mkl_MATRIX.o \
+./source/mkl_MAX7219.o \
 ./source/mkl_MatrixPatterns.o 
 
 CPP_DEPS += \
@@ -25,6 +27,7 @@ CPP_DEPS += \
 ./source/mkl_GPIO.d \
 ./source/mkl_GPIOPort.d \
 ./source/mkl_MATRIX.d \
+./source/mkl_MAX7219.d \
 ./source/mkl_MatrixPatterns.d 
 
 
